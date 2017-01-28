@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotThemViewController">
+            <connections>
+                <outlet property="emailField" destination="Ec9-n5-WzI" id="Ieu-uY-ElF"/>
+                <outlet property="fullNameField" destination="29b-lz-zYm" id="JLQ-6K-P4m"/>
+                <outlet property="imageView" destination="j3p-IP-oRm" id="oBh-k9-u39"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="full name?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="29b-lz-zYm">
+                    <rect key="frame" x="76" y="245" width="223" height="37"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="27"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ec9-n5-WzI">
+                    <rect key="frame" x="76" y="298" width="223" height="37"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="27"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX3-CD-WUI" customClass="NiceButton">
+                    <rect key="frame" x="94" y="357" width="187" height="47"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="187" id="RoK-7K-mdd"/>
+                        <constraint firstAttribute="width" constant="187" id="T0A-g8-Gpo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="25"/>
+                    <state key="normal" title="confirm">
+                        <color key="titleColor" red="0.0" green="0.72156862749999995" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="confirmClicked:" destination="-1" eventType="touchUpInside" id="WE2-DR-gEm"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient.png" translatesAutoresizingMaskIntoConstraints="NO" id="j3p-IP-oRm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="224"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="j3p-IP-oRm" secondAttribute="height" multiplier="375:224" id="ldz-sr-lyZ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.72156862745098038" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="29b-lz-zYm" secondAttribute="trailing" constant="76" id="ADv-s3-Boe"/>
+                <constraint firstItem="gX3-CD-WUI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ELx-bL-1cm"/>
+                <constraint firstItem="j3p-IP-oRm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FtA-0t-fFb"/>
+                <constraint firstItem="j3p-IP-oRm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KuQ-wg-YbI"/>
+                <constraint firstAttribute="trailing" secondItem="j3p-IP-oRm" secondAttribute="trailing" id="MAJ-Br-hoO"/>
+                <constraint firstAttribute="trailing" secondItem="Ec9-n5-WzI" secondAttribute="trailing" constant="76" id="Uzy-ew-H3B"/>
+                <constraint firstItem="gX3-CD-WUI" firstAttribute="top" secondItem="Ec9-n5-WzI" secondAttribute="bottom" constant="22" id="Wl2-xZ-8wP"/>
+                <constraint firstItem="Ec9-n5-WzI" firstAttribute="top" secondItem="29b-lz-zYm" secondAttribute="bottom" constant="16" id="Zrn-uz-Pxb"/>
+                <constraint firstItem="Ec9-n5-WzI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="76" id="b1e-ML-Pnd"/>
+                <constraint firstItem="29b-lz-zYm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="76" id="m8u-gJ-4Ns"/>
+                <constraint firstItem="29b-lz-zYm" firstAttribute="top" secondItem="j3p-IP-oRm" secondAttribute="bottom" constant="21" id="sr7-bM-V8s"/>
+            </constraints>
+            <point key="canvasLocation" x="117.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gradient.png" width="1080" height="400"/>
+    </resources>
+</document>

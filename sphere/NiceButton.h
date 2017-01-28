@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NiceButton.h
 //  sphere
 //
 //  Created by Aniruddh Iyengar on 1/21/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NiceButton : UIButton {
 
+}
 
 @end
-

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EntryViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    // Override point for customization after application launch.
+//    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"userDict"];
+//    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"userName"];
+//    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"userPass"];
+    UIWindow *mainWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"userDict"] == nil) {
+        EntryViewController *evc = [[EntryViewController alloc] initWithNibName:@"EntryViewController" bundle:nil];
+        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:evc];
+        [navController setNavigationBarHidden:YES];
+        mainWindow.rootViewController = navController;
+        self.window = mainWindow;
+    }
+    else {
+        PictureViewController *pvc = [[PictureViewController alloc] initWithNibName:@"PictureViewController" bundle:nil];
+        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:pvc];
+        [navController setNavigationBarHidden:YES];
+        mainWindow.rootViewController = navController;
+        self.window = mainWindow;
+    }
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

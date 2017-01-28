@@ -9,10 +9,34 @@
 /* Begin PBXBuildFile section */
 		B6C3362D1E334A5D00C765E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3362C1E334A5D00C765E6 /* main.m */; };
 		B6C336301E334A5D00C765E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3362F1E334A5D00C765E6 /* AppDelegate.m */; };
-		B6C336331E334A5D00C765E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336321E334A5D00C765E6 /* ViewController.m */; };
-		B6C336361E334A5D00C765E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C336341E334A5D00C765E6 /* Main.storyboard */; };
 		B6C336381E334A5D00C765E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C336371E334A5D00C765E6 /* Assets.xcassets */; };
 		B6C3363B1E334A5D00C765E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C336391E334A5D00C765E6 /* LaunchScreen.storyboard */; };
+		B6C336451E334AD400C765E6 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336431E334AD400C765E6 /* EntryViewController.m */; };
+		B6C336461E334AD400C765E6 /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C336441E334AD400C765E6 /* EntryViewController.xib */; };
+		B6C336481E33514500C765E6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C336471E33514500C765E6 /* icon.png */; };
+		B6C3364B1E33526700C765E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C3364A1E33526700C765E6 /* QuartzCore.framework */; };
+		B6C3364F1E335CF600C765E6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3364D1E335CF600C765E6 /* LoginViewController.m */; };
+		B6C336501E335CF600C765E6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3364E1E335CF600C765E6 /* LoginViewController.xib */; };
+		B6C336531E33625A00C765E6 /* NiceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336521E33625A00C765E6 /* NiceButton.m */; };
+		B6C336571E33686200C765E6 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336551E33686200C765E6 /* PictureViewController.m */; };
+		B6C336581E33686200C765E6 /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C336561E33686200C765E6 /* PictureViewController.xib */; };
+		B6C3365A1E336B4700C765E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C336591E336B4700C765E6 /* AVFoundation.framework */; };
+		B6C3365C1E3373B300C765E6 /* chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3365B1E3373B300C765E6 /* chevron.png */; };
+		B6C3365E1E3375CB00C765E6 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3365D1E3375CB00C765E6 /* gradient.png */; };
+		B6C336601E3377A400C765E6 /* png.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3365F1E3377A400C765E6 /* png.png */; };
+		B6C336641E33A95C00C765E6 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336621E33A95C00C765E6 /* PaymentViewController.m */; };
+		B6C336651E33A95C00C765E6 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C336631E33A95C00C765E6 /* PaymentViewController.xib */; };
+		B6C336691E33C52700C765E6 /* NotThemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336671E33C52700C765E6 /* NotThemViewController.m */; };
+		B6C3366A1E33C52700C765E6 /* NotThemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C336681E33C52700C765E6 /* NotThemViewController.xib */; };
+		B6C3366E1E34008C00C765E6 /* RecentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3366C1E34008C00C765E6 /* RecentsViewController.m */; };
+		B6C3366F1E34008C00C765E6 /* RecentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3366D1E34008C00C765E6 /* RecentsViewController.xib */; };
+		B6C336731E3402BE00C765E6 /* RecentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336711E3402BE00C765E6 /* RecentsTableViewCell.m */; };
+		B6C336741E3402BE00C765E6 /* RecentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C336721E3402BE00C765E6 /* RecentsTableViewCell.xib */; };
+		B6C336781E34327300C765E6 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C336761E34327300C765E6 /* AccountViewController.m */; };
+		B6C336791E34327300C765E6 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C336771E34327300C765E6 /* AccountViewController.xib */; };
+		B6C3367D1E3438A600C765E6 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3367B1E3438A600C765E6 /* SignupViewController.m */; };
+		B6C3367E1E3438A600C765E6 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3367C1E3438A600C765E6 /* SignupViewController.xib */; };
+		B6C336821E34886500C765E6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C336811E34886500C765E6 /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +44,45 @@
 		B6C3362C1E334A5D00C765E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6C3362E1E334A5D00C765E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6C3362F1E334A5D00C765E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6C336311E334A5D00C765E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6C336321E334A5D00C765E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B6C336351E334A5D00C765E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C336371E334A5D00C765E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C3363A1E334A5D00C765E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C3363C1E334A5D00C765E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C336421E334AD400C765E6 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		B6C336431E334AD400C765E6 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		B6C336441E334AD400C765E6 /* EntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntryViewController.xib; sourceTree = "<group>"; };
+		B6C336471E33514500C765E6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B6C3364A1E33526700C765E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6C3364C1E335CF600C765E6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B6C3364D1E335CF600C765E6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B6C3364E1E335CF600C765E6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B6C336511E33625A00C765E6 /* NiceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiceButton.h; sourceTree = "<group>"; };
+		B6C336521E33625A00C765E6 /* NiceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NiceButton.m; sourceTree = "<group>"; };
+		B6C336541E33686200C765E6 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		B6C336551E33686200C765E6 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		B6C336561E33686200C765E6 /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
+		B6C336591E336B4700C765E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6C3365B1E3373B300C765E6 /* chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevron.png; sourceTree = "<group>"; };
+		B6C3365D1E3375CB00C765E6 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		B6C3365F1E3377A400C765E6 /* png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = png.png; sourceTree = "<group>"; };
+		B6C336611E33A95C00C765E6 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		B6C336621E33A95C00C765E6 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		B6C336631E33A95C00C765E6 /* PaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
+		B6C336661E33C52700C765E6 /* NotThemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotThemViewController.h; sourceTree = "<group>"; };
+		B6C336671E33C52700C765E6 /* NotThemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotThemViewController.m; sourceTree = "<group>"; };
+		B6C336681E33C52700C765E6 /* NotThemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotThemViewController.xib; sourceTree = "<group>"; };
+		B6C3366B1E34008C00C765E6 /* RecentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsViewController.h; sourceTree = "<group>"; };
+		B6C3366C1E34008C00C765E6 /* RecentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsViewController.m; sourceTree = "<group>"; };
+		B6C3366D1E34008C00C765E6 /* RecentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentsViewController.xib; sourceTree = "<group>"; };
+		B6C336701E3402BE00C765E6 /* RecentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsTableViewCell.h; sourceTree = "<group>"; };
+		B6C336711E3402BE00C765E6 /* RecentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsTableViewCell.m; sourceTree = "<group>"; };
+		B6C336721E3402BE00C765E6 /* RecentsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentsTableViewCell.xib; sourceTree = "<group>"; };
+		B6C336751E34327200C765E6 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		B6C336761E34327300C765E6 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		B6C336771E34327300C765E6 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		B6C3367A1E3438A600C765E6 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		B6C3367B1E3438A600C765E6 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		B6C3367C1E3438A600C765E6 /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		B6C336811E34886500C765E6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C336821E34886500C765E6 /* OpenGLES.framework in Frameworks */,
+				B6C3365A1E336B4700C765E6 /* AVFoundation.framework in Frameworks */,
+				B6C3364B1E33526700C765E6 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +104,7 @@
 			children = (
 				B6C3362A1E334A5D00C765E6 /* sphere */,
 				B6C336291E334A5D00C765E6 /* Products */,
+				B6C336491E33526700C765E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +121,42 @@
 			children = (
 				B6C3362E1E334A5D00C765E6 /* AppDelegate.h */,
 				B6C3362F1E334A5D00C765E6 /* AppDelegate.m */,
-				B6C336311E334A5D00C765E6 /* ViewController.h */,
-				B6C336321E334A5D00C765E6 /* ViewController.m */,
-				B6C336341E334A5D00C765E6 /* Main.storyboard */,
+				B6C336511E33625A00C765E6 /* NiceButton.h */,
+				B6C336521E33625A00C765E6 /* NiceButton.m */,
+				B6C336421E334AD400C765E6 /* EntryViewController.h */,
+				B6C336431E334AD400C765E6 /* EntryViewController.m */,
+				B6C336441E334AD400C765E6 /* EntryViewController.xib */,
+				B6C3364C1E335CF600C765E6 /* LoginViewController.h */,
+				B6C3364D1E335CF600C765E6 /* LoginViewController.m */,
+				B6C3364E1E335CF600C765E6 /* LoginViewController.xib */,
+				B6C336541E33686200C765E6 /* PictureViewController.h */,
+				B6C336551E33686200C765E6 /* PictureViewController.m */,
+				B6C336561E33686200C765E6 /* PictureViewController.xib */,
+				B6C336611E33A95C00C765E6 /* PaymentViewController.h */,
+				B6C336621E33A95C00C765E6 /* PaymentViewController.m */,
+				B6C336631E33A95C00C765E6 /* PaymentViewController.xib */,
+				B6C336661E33C52700C765E6 /* NotThemViewController.h */,
+				B6C336671E33C52700C765E6 /* NotThemViewController.m */,
+				B6C336681E33C52700C765E6 /* NotThemViewController.xib */,
+				B6C3366B1E34008C00C765E6 /* RecentsViewController.h */,
+				B6C3366C1E34008C00C765E6 /* RecentsViewController.m */,
+				B6C3366D1E34008C00C765E6 /* RecentsViewController.xib */,
+				B6C336701E3402BE00C765E6 /* RecentsTableViewCell.h */,
+				B6C336711E3402BE00C765E6 /* RecentsTableViewCell.m */,
+				B6C336721E3402BE00C765E6 /* RecentsTableViewCell.xib */,
+				B6C336751E34327200C765E6 /* AccountViewController.h */,
+				B6C336761E34327300C765E6 /* AccountViewController.m */,
+				B6C336771E34327300C765E6 /* AccountViewController.xib */,
+				B6C3367A1E3438A600C765E6 /* SignupViewController.h */,
+				B6C3367B1E3438A600C765E6 /* SignupViewController.m */,
+				B6C3367C1E3438A600C765E6 /* SignupViewController.xib */,
 				B6C336371E334A5D00C765E6 /* Assets.xcassets */,
 				B6C336391E334A5D00C765E6 /* LaunchScreen.storyboard */,
 				B6C3363C1E334A5D00C765E6 /* Info.plist */,
+				B6C336471E33514500C765E6 /* icon.png */,
+				B6C3365B1E3373B300C765E6 /* chevron.png */,
+				B6C3365D1E3375CB00C765E6 /* gradient.png */,
+				B6C3365F1E3377A400C765E6 /* png.png */,
 				B6C3362B1E334A5D00C765E6 /* Supporting Files */,
 			);
 			path = sphere;
@@ -77,6 +168,16 @@
 				B6C3362C1E334A5D00C765E6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C336491E33526700C765E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C336811E34886500C765E6 /* OpenGLES.framework */,
+				B6C336591E336B4700C765E6 /* AVFoundation.framework */,
+				B6C3364A1E33526700C765E6 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +239,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C336501E335CF600C765E6 /* LoginViewController.xib in Resources */,
+				B6C336741E3402BE00C765E6 /* RecentsTableViewCell.xib in Resources */,
+				B6C336481E33514500C765E6 /* icon.png in Resources */,
 				B6C3363B1E334A5D00C765E6 /* LaunchScreen.storyboard in Resources */,
+				B6C336651E33A95C00C765E6 /* PaymentViewController.xib in Resources */,
+				B6C336581E33686200C765E6 /* PictureViewController.xib in Resources */,
+				B6C3367E1E3438A600C765E6 /* SignupViewController.xib in Resources */,
+				B6C3365C1E3373B300C765E6 /* chevron.png in Resources */,
+				B6C3365E1E3375CB00C765E6 /* gradient.png in Resources */,
+				B6C336791E34327300C765E6 /* AccountViewController.xib in Resources */,
+				B6C336601E3377A400C765E6 /* png.png in Resources */,
 				B6C336381E334A5D00C765E6 /* Assets.xcassets in Resources */,
-				B6C336361E334A5D00C765E6 /* Main.storyboard in Resources */,
+				B6C3366F1E34008C00C765E6 /* RecentsViewController.xib in Resources */,
+				B6C336461E334AD400C765E6 /* EntryViewController.xib in Resources */,
+				B6C3366A1E33C52700C765E6 /* NotThemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +264,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C336331E334A5D00C765E6 /* ViewController.m in Sources */,
+				B6C336731E3402BE00C765E6 /* RecentsTableViewCell.m in Sources */,
+				B6C3366E1E34008C00C765E6 /* RecentsViewController.m in Sources */,
+				B6C336691E33C52700C765E6 /* NotThemViewController.m in Sources */,
+				B6C3364F1E335CF600C765E6 /* LoginViewController.m in Sources */,
+				B6C336571E33686200C765E6 /* PictureViewController.m in Sources */,
+				B6C336781E34327300C765E6 /* AccountViewController.m in Sources */,
+				B6C3367D1E3438A600C765E6 /* SignupViewController.m in Sources */,
 				B6C336301E334A5D00C765E6 /* AppDelegate.m in Sources */,
+				B6C336451E334AD400C765E6 /* EntryViewController.m in Sources */,
 				B6C3362D1E334A5D00C765E6 /* main.m in Sources */,
+				B6C336641E33A95C00C765E6 /* PaymentViewController.m in Sources */,
+				B6C336531E33625A00C765E6 /* NiceButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B6C336341E334A5D00C765E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6C336351E334A5D00C765E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6C336391E334A5D00C765E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,9 +384,9 @@
 		B6C336401E334A5D00C765E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VG9SK83SP;
 				INFOPLIST_FILE = sphere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aniruddh.sphere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,9 +396,9 @@
 		B6C336411E334A5D00C765E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VG9SK83SP;
 				INFOPLIST_FILE = sphere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aniruddh.sphere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
